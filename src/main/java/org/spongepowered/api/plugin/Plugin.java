@@ -44,7 +44,7 @@ public @interface Plugin {
      * not conflict with other plugins.
      *
      * <p>The plugin ID must be lowercase and start with a alphabetic character.
-     * </p>
+     * It may only contain alphanumeric characters, dashes or underscores.</p>
      *
      * @return The plugin identifier
      * @see <a href="https://goo.gl/MRRYSJ">Java package naming conventions</a>
